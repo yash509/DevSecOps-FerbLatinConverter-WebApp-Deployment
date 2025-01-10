@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: lms-system-service
+  name: ferb-latin-converter-service
 spec:
   selector:
-    app: lms-system
+    app: ferb-latin-converter
   ports:
     - protocol: TCP
       port: 5000
