@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferb-Latin-translator</title>
+    <link href="/style.css" rel="stylesheet">
+
+    <style>
+        textarea {
+            display: block;
+            background-color: #F3F4F6;
+            border: 2px solid black;
+            max-width: 500px;
+            margin-left: 500px;
+            padding: 2rem;
+            height: 10vh;
+            width: 50%;
+            margin-top: 3rem;
+
+        }
+
+        #output {
+
+            display: block;
+            background-color: #F3F4F6;
+            border: 2px solid black;
+            max-width: 500px;
+            margin-left: 500px;
+            padding: 2rem;
+            height: 10vh;
+            width: 50%;
+            
+
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header"><h1 class="title" >Ferb speaks!</h1>
+        Convert from English to Ferb Latin. During their routine summer fun, the two brothers Phineas and Ferb(in a Dinsney series) create their own language, Ferb Latin which quickly catches on. To speak it you must take the first letter of every word, move it to the end, and then say '-erb'\; though two-letter words stay the same. Ferb Latin has non-verbal cues as well, such as reaching for the sky to say "okay, " cracking your knuckles to say that you're hungry, doing jazz hands when you smell something bad, twisting your toungue and teeth to say everything is ok, and blowing a raspberry to say goodbye.
+    </div>
+
+    <header>
+        <img class="header-img" src="/Ferb-img.jpg">
+        
+    </header>
+
+    
+    <textarea class="input-box" id="txt-input" placeholder="put your sentence in English here and we will convert it into Ferb's latin language!"></textarea>
+
+    <button class="button" id="btn-translate">Translate to ferb's latin</button>
+
+    <div class="message">English to banana translation here  👇 </div>
+    
+    <div id="output"></div>
+
+    <footer class="footer">
+        <div class="footer-header">Reach me on: </div>
+            
+            <ul class="non-bullet-list">
+                <li class="inline-list"><a class="footer-link" href="https://twitter.com/imshubhxm"><img class="social-link" src="/twitter.png" ></a></li>
+                <li class="inline-list"><a class="footer-link" href="https://github.com/ShubhamSoni09"><img class="social-link" src="/GitHub-Mark.png" ></a></li>
+            </ul>
+        
+            
+    </footer>
+
+    <script src="app.js" type="text/javascript"></script>
+    
+</body>
+</html>
