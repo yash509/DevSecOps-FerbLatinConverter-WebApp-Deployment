@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: pe-wa-pvc
+  name: ferb-latin-converter-pvc
 spec:
   accessModes:
     - ReadWriteOnce
